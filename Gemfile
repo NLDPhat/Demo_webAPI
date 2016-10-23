@@ -9,7 +9,6 @@ gem 'active_model_serializers', '~> 0.10.2'
 gem 'shoulda-matchers', '~> 3.1', '>= 3.1.1'
 gem 'pg', '~> 0.19.0'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -44,6 +43,7 @@ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
+  gem 'taps', '~> 0.3.24'
   gem 'web-console'
 end
 
